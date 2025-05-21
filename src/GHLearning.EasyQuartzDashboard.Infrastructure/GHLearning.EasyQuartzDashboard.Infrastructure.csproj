@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Quartz.AspNetCore" Version="3.14.0" />
+    <PackageReference Include="SequentialGuid" Version="4.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GHLearning.EasyQuartzDashboard.Core\GHLearning.EasyQuartzDashboard.Core.csproj" />
+    <ProjectReference Include="..\GHLearning.EasyQuartzDashboard.SharedKernel\GHLearning.EasyQuartzDashboard.SharedKernel.csproj" />
+  </ItemGroup>
+
+</Project>

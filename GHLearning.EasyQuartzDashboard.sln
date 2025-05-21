@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.EasyQuartzDashboard.Web", "src\GHLearning.EasyQuartzDashboard.Web\GHLearning.EasyQuartzDashboard.Web.csproj", "{750A9414-06CE-4A64-9EDC-E91F3B5BE312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.EasyQuartzDashboard.Application", "src\GHLearning.EasyQuartzDashboard.Application\GHLearning.EasyQuartzDashboard.Application.csproj", "{19B57C00-941D-4526-9FD0-76555C7578E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.EasyQuartzDashboard.Core", "src\GHLearning.EasyQuartzDashboard.Core\GHLearning.EasyQuartzDashboard.Core.csproj", "{4C33C0A7-9932-4459-8006-4FC48D938470}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.EasyQuartzDashboard.Infrastructure", "src\GHLearning.EasyQuartzDashboard.Infrastructure\GHLearning.EasyQuartzDashboard.Infrastructure.csproj", "{F63E96B0-2A7A-4D31-8874-E7FA2F4135AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.EasyQuartzDashboard.SharedKernel", "src\GHLearning.EasyQuartzDashboard.SharedKernel\GHLearning.EasyQuartzDashboard.SharedKernel.csproj", "{936056DB-826F-4FC8-BADF-A72858E6BC55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D7CE37CC-08E6-4EFB-8B73-E05648EA8943}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.EasyQuartzDashboard.ApplicationTest", "test\GHLearning.EasyQuartzDashboard.ApplicationTest\GHLearning.EasyQuartzDashboard.ApplicationTest.csproj", "{6C30D184-2D61-4B8A-A846-EFDA81EAA9ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.EasyQuartzDashboard.InfrastructureTest", "test\GHLearning.EasyQuartzDashboard.InfrastructureTest\GHLearning.EasyQuartzDashboard.InfrastructureTest.csproj", "{BF57965C-57F6-303C-9C32-57EA470FB296}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{750A9414-06CE-4A64-9EDC-E91F3B5BE312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{750A9414-06CE-4A64-9EDC-E91F3B5BE312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{750A9414-06CE-4A64-9EDC-E91F3B5BE312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{750A9414-06CE-4A64-9EDC-E91F3B5BE312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19B57C00-941D-4526-9FD0-76555C7578E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B57C00-941D-4526-9FD0-76555C7578E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B57C00-941D-4526-9FD0-76555C7578E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B57C00-941D-4526-9FD0-76555C7578E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C33C0A7-9932-4459-8006-4FC48D938470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C33C0A7-9932-4459-8006-4FC48D938470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C33C0A7-9932-4459-8006-4FC48D938470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C33C0A7-9932-4459-8006-4FC48D938470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F63E96B0-2A7A-4D31-8874-E7FA2F4135AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F63E96B0-2A7A-4D31-8874-E7FA2F4135AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F63E96B0-2A7A-4D31-8874-E7FA2F4135AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F63E96B0-2A7A-4D31-8874-E7FA2F4135AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{936056DB-826F-4FC8-BADF-A72858E6BC55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{936056DB-826F-4FC8-BADF-A72858E6BC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{936056DB-826F-4FC8-BADF-A72858E6BC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{936056DB-826F-4FC8-BADF-A72858E6BC55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C30D184-2D61-4B8A-A846-EFDA81EAA9ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C30D184-2D61-4B8A-A846-EFDA81EAA9ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C30D184-2D61-4B8A-A846-EFDA81EAA9ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C30D184-2D61-4B8A-A846-EFDA81EAA9ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF57965C-57F6-303C-9C32-57EA470FB296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF57965C-57F6-303C-9C32-57EA470FB296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF57965C-57F6-303C-9C32-57EA470FB296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF57965C-57F6-303C-9C32-57EA470FB296}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{750A9414-06CE-4A64-9EDC-E91F3B5BE312} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{19B57C00-941D-4526-9FD0-76555C7578E7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{4C33C0A7-9932-4459-8006-4FC48D938470} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F63E96B0-2A7A-4D31-8874-E7FA2F4135AA} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{936056DB-826F-4FC8-BADF-A72858E6BC55} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{6C30D184-2D61-4B8A-A846-EFDA81EAA9ED} = {D7CE37CC-08E6-4EFB-8B73-E05648EA8943}
+		{BF57965C-57F6-303C-9C32-57EA470FB296} = {D7CE37CC-08E6-4EFB-8B73-E05648EA8943}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC07EB65-4C93-4F1E-BC89-3F27A770C5C7}
+	EndGlobalSection
+EndGlobal
