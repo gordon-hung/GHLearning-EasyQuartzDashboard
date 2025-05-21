@@ -7,7 +7,15 @@ GHLearning-EasyQuartzDashboard is a .NET application that provides a web-based d
 This overview document introduces the system's core capabilities, architectural approach, and major components. For more detailed information about the system architecture, see Architecture, and for specific details on Quartz.NET integration, refer to Quartz Integration.
 
 ## System Architecture
-GHLearning-EasyQuartzDashboard follows Clean Architecture principles with clearly separated layers and dependencies flowing inward toward the domain core. The application is structured into five main projects:
+GHLearning-EasyQuartzDashboard follows Clean Architecture principles with clearly separated layers and dependencies flowing inward toward the domain core. 
+The application is structured into five main projects:
+| Project  | Description  | Responsibility |
+|:--------|:--------|:--------|
+| Web   | Presentation layer   | User interface, controllers, views, API endpoints    |
+| Application   | Application layer   | Use cases, business logic orchestration, request handlers    |
+| Core   | 	Domain layer   | Business rules, domain entities, repository interfaces    |
+| Infrastructure   | Infrastructure layer   | External concerns, repository implementations, data access    |
+| SharedKernel   | 	Cross-cutting concerns   | Common utilities, extensions, shared components    |
 
 ## Summary
 GHLearning-EasyQuartzDashboard provides a comprehensive solution for Quartz.NET job management with a clean, maintainable architecture. The system demonstrates best practices in .NET application development, including:
