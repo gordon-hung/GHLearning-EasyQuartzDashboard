@@ -30,7 +30,7 @@ jobs:
       # Run tests and collect code junit
       - name: Run tests with code junit
         run: |
-          dotnet test --configuration Release -l:"junit;LogFilePath=junit.xml" -o junit_family=legacy
+          dotnet test --configuration Release -l:"junit;LogFilePath=junit.xml"
 
       # Upload test results to Codecov
       - name: Upload test results to Codecov
